@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/ic_wave"
+    android:gravity="center"
+    tools:context=".HomeFragment" >
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:textSize="20dp"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:id="@+id/showUnderOver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:textSize="40dp"
+        android:textColor="@color/white"/>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/bmiThin"
+            android:layout_width="386dp"
+            android:layout_height="239dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/bmi_thin"
+            android:visibility="gone"/>
+
+        <ImageView
+            android:id="@+id/bmiHealthy"
+            android:layout_width="386dp"
+            android:layout_height="239dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/bmi_healthy"
+            android:visibility="gone"/>
+
+        <ImageView
+            android:id="@+id/bmiFat"
+            android:layout_width="386dp"
+            android:layout_height="239dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/bmi_fat"
+            android:visibility="gone"/>
+        <ImageView
+            android:id="@+id/bmiOver"
+            android:layout_width="386dp"
+            android:layout_height="239dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/bmi_over"
+            android:visibility="gone"/>
+    </RelativeLayout>
+    <ImageView
+        android:id="@+id/bmiResult"
+        android:layout_width="386dp"
+        android:layout_height="239dp"
+        android:src="@drawable/bmi" />
+
+</LinearLayout>

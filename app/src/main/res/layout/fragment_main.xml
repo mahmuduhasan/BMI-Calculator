@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_wave"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainFragment">
+
+    <TextView
+        android:id="@+id/bmiText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="casual"
+        android:text="BMI"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="50dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="182dp"
+        android:layout_height="173dp"
+        android:src="@drawable/ic_baseline_calculate" />
+
+    <EditText
+        android:id="@+id/weightET"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/input_background"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        android:hint="Enter Weight (KG)"
+        android:textColorHint="@color/white"
+        android:ems="10"
+        android:textColor="@color/white"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/heightET"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/input_background"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        android:hint="Enter Height (M)"
+        android:textColorHint="@color/white"
+        android:ems="10"
+        android:textColor="@color/white"
+        android:inputType="numberDecimal" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="160dp"
+        android:layout_marginRight="150dp"
+        android:background="@drawable/background"
+        android:src="@drawable/ic_baseline_next" />
+
+
+
+</LinearLayout>
